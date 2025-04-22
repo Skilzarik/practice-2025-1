@@ -70,6 +70,13 @@ main {
   margin: auto;
 }
 
+main img {
+  width: 400px;
+  height: 400px;
+  margin-left: 200px;
+  text-align: center;
+}
+
 section {
   margin-bottom: 4em;
 }
