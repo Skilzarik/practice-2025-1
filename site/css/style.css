@@ -66,15 +66,15 @@ nav a.active {
 
 main {
   padding: 5em 2em 2em;
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
 }
 
-main img {
+.img-centre {
   width: 400px;
   height: 400px;
-  margin-left: 200px;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 section {
@@ -89,3 +89,23 @@ h1, h2, h3 {
 p, li {
   line-height: 1.6;
 }
+
+.site-footer {
+  background-color: #202020;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+
+.container {
+  box-sizing: border-box;
+  background-color: #2e2e2e;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+
+
